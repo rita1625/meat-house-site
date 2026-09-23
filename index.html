@@ -18,6 +18,7 @@
     </a>
     <nav class="nav-links">
       <a href="#about" data-zh="关于" data-en="About">关于</a>
+      <a href="#video" data-zh="宣传片" data-en="Film">宣传片</a>
       <a href="#products" data-zh="产品" data-en="Products">产品</a>
       <a href="#stores" data-zh="门店" data-en="Stores">门店</a>
       <a href="#contact" data-zh="联系" data-en="Contact">联系</a>
@@ -36,10 +37,23 @@
         <p class="hero-kicker" data-zh="湾区 · 三家门店" data-en="Bay Area · Three Locations">湾区 · 三家门店</p>
         <h1 class="hero-title">無肉不歡</h1>
         <p class="hero-sub">MEAT HOUSE</p>
-        <p class="hero-tagline" data-zh="卖让人放心的肉。" data-en="We sell quality meats that gives you peace of mind.">卖让人放心的肉。</p>
+        <p class="hero-tagline" data-zh="专卖火锅肉卷与烤肉" data-en="Hot Pot Meat Rolls & BBQ">专卖火锅肉卷与烤肉</p>
         <div class="hero-actions">
           <a class="btn btn-solid" href="#products" data-zh="查看产品" data-en="View Products">查看产品</a>
           <a class="btn btn-outline" href="#stores" data-zh="寻找门店" data-en="Find a Store">寻找门店</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo video -->
+    <section class="video-section" id="video">
+      <div class="container narrow">
+        <p class="section-kicker" data-zh="宣传片" data-en="Our Film">宣传片</p>
+        <h2 class="section-title" data-zh="走进無肉不歡" data-en="Inside Meat House">走进無肉不歡</h2>
+        <div class="video-wrap">
+          <video controls preload="metadata" poster="assets/promo-poster.jpg" playsinline>
+            <source src="assets/promo.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </section>
@@ -58,7 +72,7 @@
           </div>
           <div class="stat">
             <span class="stat-num">7</span>
-            <span class="stat-label" data-zh="产品大类" data-en="Product Categories">产品大类</span>
+            <span class="stat-label" data-zh="明星产品" data-en="Featured Products">明星产品</span>
           </div>
           <div class="stat">
             <span class="stat-num">1</span>
@@ -72,42 +86,35 @@
     <section class="section section-alt" id="products">
       <div class="container">
         <p class="section-kicker" data-zh="产品" data-en="Products">产品</p>
-        <h2 class="section-title" data-zh="新鲜直供，品类齐全" data-en="Fresh, Honest Selection">新鲜直供，品类齐全</h2>
+        <h2 class="section-title" data-zh="明星产品" data-en="Featured Products">明星产品</h2>
         <div class="product-grid">
           <article class="product-card">
-            <div class="product-img"><img src="assets/beef.jpg" alt="牛肉" loading="lazy" /></div>
-            <h3 data-zh="牛肉" data-en="Beef">牛肉</h3>
-            <p data-zh="肉质扎实，适合煎、炒、炖煮。" data-en="Quality beef cuts for everyday cooking.">肉质扎实，适合煎、炒、炖煮。</p>
+            <div class="product-img"><img src="assets/product-a5.jpg" alt="日本A5和牛" loading="lazy" /></div>
+            <h3 data-zh="日本A5和牛" data-en="Japanese A5 Ribeye">日本A5和牛</h3>
           </article>
           <article class="product-card">
-            <div class="product-img"><img src="assets/pork.jpg" alt="猪肉" loading="lazy" /></div>
-            <h3 data-zh="猪肉" data-en="Pork">猪肉</h3>
-            <p data-zh="新鲜猪肉，家常与宴客都适合。" data-en="Fresh pork, for weeknights and gatherings alike.">新鲜猪肉，家常与宴客都适合。</p>
+            <div class="product-img"><img src="assets/product-chuckeye.jpg" alt="美国和牛上脑" loading="lazy" /></div>
+            <h3 data-zh="美国和牛上脑" data-en="American Wagyu Chuck Eye">美国和牛上脑</h3>
           </article>
           <article class="product-card">
-            <div class="product-img"><img src="assets/chicken.webp" alt="鸡肉" loading="lazy" /></div>
-            <h3 data-zh="鸡肉" data-en="Chicken">鸡肉</h3>
-            <p data-zh="新鲜鸡肉，做法多样。" data-en="Fresh chicken, versatile for many recipes.">新鲜鸡肉，做法多样。</p>
+            <div class="product-img"><img src="assets/product-auswagyu.jpg" alt="澳洲和牛" loading="lazy" /></div>
+            <h3 data-zh="澳洲和牛" data-en="Australian Wagyu">澳洲和牛</h3>
           </article>
           <article class="product-card">
-            <div class="product-img"><img src="assets/lamb.jpg" alt="羊肉" loading="lazy" /></div>
-            <h3 data-zh="羊肉" data-en="Lamb">羊肉</h3>
-            <p data-zh="风味浓郁，适合烧烤与炖煮。" data-en="Rich flavor, great for grilling and braising.">风味浓郁，适合烧烤与炖煮。</p>
+            <div class="product-img"><img src="assets/product-shortrib.jpg" alt="特级牛小排" loading="lazy" /></div>
+            <h3 data-zh="特级牛小排" data-en="Prime Short Rib">特级牛小排</h3>
           </article>
           <article class="product-card">
-            <div class="product-img"><img src="assets/hotpot.jpg" alt="火锅肉片" loading="lazy" /></div>
-            <h3 data-zh="火锅肉片" data-en="Hot Pot Slices">火锅肉片</h3>
-            <p data-zh="薄切肉片，火锅首选。" data-en="Thinly sliced, perfect for hot pot.">薄切肉片，火锅首选。</p>
+            <div class="product-img"><img src="assets/product-grassfed.jpg" alt="草饲牛上脑" loading="lazy" /></div>
+            <h3 data-zh="草饲牛上脑" data-en="Grass-Fed Chuck Eye">草饲牛上脑</h3>
           </article>
           <article class="product-card">
-            <div class="product-img"><img src="assets/bbq.jpg" alt="烧烤" loading="lazy" /></div>
-            <h3 data-zh="烧烤" data-en="BBQ">烧烤</h3>
-            <p data-zh="烧烤聚会的肉类选择。" data-en="Meats made for your next BBQ.">烧烤聚会的肉类选择。</p>
+            <div class="product-img"><img src="assets/product-angus.jpg" alt="安格斯肥牛" loading="lazy" /></div>
+            <h3 data-zh="安格斯肥牛" data-en="Angus Beef">安格斯肥牛</h3>
           </article>
           <article class="product-card">
-            <div class="product-img"><img src="assets/wagyu.webp" alt="和牛" loading="lazy" /></div>
-            <h3 data-zh="和牛" data-en="Wagyu">和牛</h3>
-            <p data-zh="油花丰富的高品质牛肉。" data-en="Richly marbled premium beef.">油花丰富的高品质牛肉。</p>
+            <div class="product-img"><img src="assets/product-lamb.jpg" alt="新西兰羔羊" loading="lazy" /></div>
+            <h3 data-zh="新西兰羔羊" data-en="New Zealand Lamb">新西兰羔羊</h3>
           </article>
         </div>
         <p class="fineprint" data-zh="产品品项与供应情况以各门店实际为准，图片仅供参考。" data-en="Selection and availability vary by store. Images are for reference only.">产品品项与供应情况以各门店实际为准，图片仅供参考。</p>
